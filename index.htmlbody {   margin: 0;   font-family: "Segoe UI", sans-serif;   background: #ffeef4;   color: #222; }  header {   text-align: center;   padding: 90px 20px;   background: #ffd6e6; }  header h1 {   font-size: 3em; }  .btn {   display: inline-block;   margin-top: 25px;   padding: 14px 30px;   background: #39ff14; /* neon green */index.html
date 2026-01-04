@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cherry & Pink | Mystery Book Boxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cherry & Pink</h1>
+  <p>Curated Mystery Book Boxes for Book Lovers</p>
+  <a href="#order" class="btn">Order a Mystery Box</a>
+</header>
+
+<section>
+  <h2>How It Works</h2>
+  <ol>
+    <li>Choose your favorite genre</li>
+    <li>We hand-pick surprise books</li>
+    <li>Your mystery box is shipped to you</li>
+  </ol>
+</section>
+
+<section class="cream">
+  <h2>Our Mystery Boxes</h2>
+  <ul>
+    <li>📘 1-Book Mystery Box</li>
+    <li>📚 3-Book Mystery Box</li>
+    <li>🎁 Deluxe Mystery Box (books + extras)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>About Cherry & Pink</h2>
+  <p>
+    Cherry & Pink creates cozy, curated mystery book boxes for readers
+    who love surprises. Each box is thoughtfully selected with care.
+  </p>
+</section>
+
+<section id="order" class="cream">
+  <h2>Order & Payment</h2>
+
+  <form action="mailto:gabriellejahr@gmail.com" method="post" enctype="text/plain">
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Preferred Genre</label>
+    <input type="text" name="genre">
+
+    <label>Box Type</label>
+    <select name="box">
+      <option>1-Book Mystery Box</option>
+      <option>3-Book Mystery Box</option>
+      <option>Deluxe Mystery Box</option>
+    </select>
+
+    <label>Notes</label>
+    <textarea name="notes"></textarea>
+
+    <button type="submit" class="btn" onclick="window.location.href='thankyou.html'">
+      Send Order Request
+    </button>
+  </form>
+
+  <h3>Pay with Venmo</h3>
+  <p>After submitting the form, complete payment using Venmo:</p>
+
+  <!-- Replace YOURVENMO with your Venmo username -->
+  <a href="https://venmo.com/YOURVENMO" target="_blank" class="btn">
+    Pay with Venmo
+  </a>
+
+  <p class="email">
+    Questions? Email us at <strong>gabriellejahr@gmail.com</strong>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Cherry & Pink</p>
+</footer>
+
+</body>
+</html>
